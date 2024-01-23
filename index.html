@@ -336,7 +336,7 @@
       <section class="mb-[100px]">
         <div class="flex lg:flex-row flex-wrap justify-center gap-7">
           <article
-            class="flex justify-center lg:flex lg:flex-row flex-col border p-2 lg:p-5 lg:w-[40%]"
+            class="flex justify-center lg:flex lg:flex-row flex-col border p-2 rounded-md lg:p-5 lg:w-[40%]"
           >
             <img src="Images/5.png" alt="" />
             <div class="space-y-4 lg:pl-4">
@@ -658,7 +658,7 @@
         <article class="p-5 space-y-5 lg:space-y-16">
           <div class="flex lg:flex-row flex-col lg:space-x-5 space-y-5 lg:space-y-0">
             <div>
-              <label class="font-bold">Your Name</label>
+              <label class="font-bold">Your Name</label> 
               <input
                 type="text"
                 placeholder="Enter your full name"
@@ -666,7 +666,7 @@
               />
             </div>
             <div>
-              <label class="font-bold">Your Email</label>
+              <label class="font-bold">Your Email</label> 
               <input
                 type="text"
                 placeholder="Enter your email"
@@ -684,7 +684,7 @@
               />
             </div>
             <div>
-              <label class="font-bold">Phone Number</label>
+              <label class="font-bold">Phone Number</label> 
               <input
                 type="text"
                 placeholder="Enter your phone number"
@@ -693,16 +693,63 @@
             </div>
           </div>
           <div>
-            <label class="font-bold">Message</label> <br>
+            <label class="font-bold">Message</label> 
             <textarea class="textarea bg-slate-100 lg:w-[98%] w-[100%] lg:h-[300px]" placeholder="Enter your message"></textarea>
           </div>
           <button class="btn primary-color lg:w-[98%] hover:text-black text-white font-bold ">Send Message</button>
         </article>
       </section>
+      <!-- Social Media section is implemented here  -->
+      <section class="space-y-3 bg-[#13131808] mb-[80px] lg:mx-[130px] py-[20px] lg:py-[60px] rounded-lg">
+        <h1 class="text-2xl font-bold text-center">Social Media</h1>
+        <div class="flex justify-center space-x-8">
+          <img class="cursor-pointer" src="icons/twitter.png" alt="">
+          <img class="cursor-pointer" src="icons/insta.png" alt="">
+          <img class="cursor-pointer" src="icons/website.png" alt="">
+          <img class="cursor-pointer" src="icons/youtube.png" alt="">
+        </div>
+      </section>
     </main>
     <!-- Footer section is implemented here  -->
-    <footer>
-      
+    <footer class="footer lg:p-10 p-6  bg-[#131318] text-white text-base-content">
+      <aside>
+        <h1 class="text-2xl font-bold">Get in Touch</h1>
+        <p>Explore our Equipment <br> section and gear  up for success <br> with the best in hockey equipment. </p>
+        <section class="space-y-2 mt-6">
+          <div class="flex space-x-2 ">
+            <img src="Images/Email.svg" alt=""><p>hockeys@support.com</p>
+          </div>
+          <div class="flex space-x-2">
+            <img src="Images/telephone.svg" alt=""><p>(+62) 123-321-543</p>
+          </div>
+        </section>
+      </aside> 
+       <section class="flex lg:flex-row lg:space-x-36 space-x-7 flex-wrap">
+        <nav class="flex flex-col lg:space-y-3 space-y-2 lg:text-start text-center">
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News and Article</a>
+          <a class="link link-hover">Legal Notice</a>
+        </nav> 
+        <nav class="flex flex-col lg:space-y-3 space-y-2 lg:text-start text-center">
+          <header class="footer-title">Support</header> 
+          <a class="link link-hover">Help Center</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav> 
+
+      <nav class="flex flex-col lg:space-y-3 space-y-2 relative left-[50px] lg:static lg:text-start text-center">
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockey's for kids</a>
+        <a class="link link-hover">Hockey's for Adult</a>
+      </nav>
+       </section>
     </footer>
   </body>
 </html>
